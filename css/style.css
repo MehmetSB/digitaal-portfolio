@@ -40,6 +40,7 @@ li{
 body{
   background-image: url("grfx/background.png");
   overflow-x:hidden;
+  background-size: cover;
 }
 
 a{
@@ -51,6 +52,22 @@ a:hover{
 }
 
 a:visited{
+  color: white;
+}
+
+
+section{
+    background: rgba(30, 54, 74, 0.8);
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+h2{
+  color: white;
+  opacity: 1.0;
+}
+p{
   color: white;
 }
 
